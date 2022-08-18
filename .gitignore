@@ -21,9 +21,6 @@ local.properties
 .gradle/
 build/
 
-# Local configuration file (sdk path, etc)
-local.properties
-
 # Log/OS Files
 *.log
 
@@ -35,7 +32,6 @@ captures/
 output.json
 
 # IntelliJ
-*.iml
 .idea/
 misc.xml
 deploymentTargetDropDown.xml
@@ -225,7 +221,6 @@ replay_pid*
 
 ### macOS ###
 # General
-.DS_Store
 .AppleDouble
 .LSOverride
 
@@ -257,7 +252,6 @@ Temporary Items
 *.icloud
 
 ### Gradle ###
-.gradle
 **/build/
 !src/**/build/
 
@@ -327,9 +321,6 @@ proguard/
 # google-services.json
 
 # Android Patch
-
-# External native build folder generated in Android Studio 2.2 and later
-.externalNativeBuild
 
 # NDK
 obj/
